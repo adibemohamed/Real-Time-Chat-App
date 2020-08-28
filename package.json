@@ -2,7 +2,7 @@
   "name": "chatup",
   "version": "1.0.0",
   "description": "chatup or talk app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/adibemohamed/Real-Time-Chat-App/issues"
   },
-  "homepage": "https://github.com/adibemohamed/Real-Time-Chat-App#readme"
+  "homepage": "https://github.com/adibemohamed/Real-Time-Chat-App#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
