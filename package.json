@@ -1,0 +1,29 @@
+{
+  "name": "chatup",
+  "version": "1.0.0",
+  "description": "chatup or talk app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adibemohamed/Real-Time-Chat-App.git"
+  },
+  "keywords": [
+    "chat",
+    "react.js",
+    "node.js",
+    "graphql",
+    "express",
+    "javasript",
+    "ecmascript",
+    "es7"
+  ],
+  "author": "Adibe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adibemohamed/Real-Time-Chat-App/issues"
+  },
+  "homepage": "https://github.com/adibemohamed/Real-Time-Chat-App#readme"
+}
