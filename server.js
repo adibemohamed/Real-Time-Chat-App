@@ -9,8 +9,13 @@ const typeDefs = `
     user: String!
     content: String!
   }
+  
   type Query {
     messages: [Message!]
+  }
+  
+  type Mutation {
+      postMessage(usr: String!, content: String!): ID!
   }
 
 `;
@@ -19,6 +24,9 @@ const typeDefs = `
 const resolvers = {
     Query: {
       messages: () => messages,
+    },
+    mutations: {
+        postMessage: (parent, {us})
     }
 };
 
