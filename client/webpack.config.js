@@ -35,7 +35,9 @@ module.exports = {
       name: "starter",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Chat" : "./src/Chat"
+      },
       shared: require("./package.json").dependencies,
     }),
     new HtmlWebPackPlugin({
