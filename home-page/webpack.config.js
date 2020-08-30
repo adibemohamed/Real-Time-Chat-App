@@ -34,7 +34,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "home",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        chat: "chat"
+      },
       exposes: {},
       shared: require("./package.json").dependencies,
     }),
